@@ -27,7 +27,7 @@ function sendemail_verify($name, $email, $verify_token) {
         $mail->Port       = 465;
 
         // Sender and recipient
-        $mail->setFrom('a9465490@gmail.com', 'Ashish Rathor');
+        $mail->setFrom('your-email@gmail.com', 'your-name');
         $mail->addAddress($email);
 
         // Email content
